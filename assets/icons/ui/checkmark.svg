@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>jollycons-[category]/icons/svg/icon-ui-1-checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons---export" transform="translate(-188.000000, -58.000000)">
+            <g id="row-1" transform="translate(60.000000, 58.000000)" fill="#000000" fill-rule="nonzero">
+                <g id="icon---3" transform="translate(128.000000, 0.000000)">
+                    <path d="M20.2623934,4.35694064 C20.620373,3.92524672 21.2454187,3.87858578 21.6584721,4.25272051 C22.0715254,4.62685523 22.1161716,5.28010841 21.758192,5.71180233 L10.5017717,19.2861187 C9.78581249,20.1495066 8.53572108,20.2428284 7.70961435,19.494559 C7.64084239,19.4322668 7.57626278,19.365092 7.51633515,19.2935124 L2.24488637,12.9971213 C1.88495323,12.5672054 1.92663658,11.9137384 2.33798875,11.537562 C2.74934091,11.1613855 3.37459118,11.20495 3.73452432,11.6348659 L9.0059731,17.931257 L20.2623934,4.35694064 Z" id="checkmark"></path>
+                </g>
+            </g>
+            <g id="slices" transform="translate(60.000000, 58.000000)"></g>
+        </g>
+    </g>
+</svg>
