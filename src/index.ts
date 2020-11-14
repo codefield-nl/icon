@@ -30,7 +30,7 @@ export class FieldgroupIconElement extends LitElement {
 
     render() {
         return html` 
-        <i class="icon" style="-webkit-mask: url('/assets/icons/${this.getIcon()}') center/contain no-repeat;"></i>
+        <i class="icon" style="-webkit-mask: url('./../assets/icons/${this.getIcon()}') center/contain no-repeat;"></i>
          `;
     }
 
