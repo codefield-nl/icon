@@ -1,4 +1,5 @@
-export enum IconSelector {
+// @TODO export separately
+export enum FieldgroupIconSelector {
     ACCESSIBILITY = 'accessibility',
     ADD = 'ui/add',
     ATTACHMENT = 'attachment',
@@ -27,7 +28,7 @@ export enum IconSelector {
     LAYOUT_LIST = 'layout-list',
     LINK = 'link',
     MENU = 'menu',
-    OPTIONS  = 'options',
+    OPTIONS = 'options',
     PROHIBITION = 'prohibition',
     RELOAD = 'reload',
     SEARCH = 'search',

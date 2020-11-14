@@ -1,8 +1,5 @@
-// @ts-ignore
 import {LitElement, html, customElement, property, css} from 'lit-element';
 import {FieldGroupIcons} from "./icons";
-
-export {IconSelector} from "./icon-selector";
 
 @customElement('fg-icon')
 export class FieldgroupIconElement extends LitElement {
