@@ -8,7 +8,7 @@ export class FieldgroupIconElement extends LitElement {
         width:24px;
         height:24px;
         display: inline-block;
-        color:black;
+        color: inherit;
     }
     
     .icon {
