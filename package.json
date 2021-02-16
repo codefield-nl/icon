@@ -5,6 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "webpack",
+    "start": "npm run serve",
     "serve": "webpack serve"
   },
   "devDependencies": {
