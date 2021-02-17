@@ -44,8 +44,6 @@ export class FieldgroupIconElement extends LitElement {
     debug?: boolean;
 
     render() {
-      console.log(typeof this.debug);
-      
       if(typeof this.debug !== 'string') {
 
         // Custom icon
