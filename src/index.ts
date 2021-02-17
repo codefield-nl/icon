@@ -21,11 +21,11 @@ export class FieldgroupIconElement extends LitElement {
     .fg-icon-wrapper {
       border: 1px solid gray;
       height: 100px;
-      width: 14.1%;
+      width: 100px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      font-size: 12px;
+      font-size: 10px;
       justify-content: center;
     }
     .fg-icon-wrapper .icon {

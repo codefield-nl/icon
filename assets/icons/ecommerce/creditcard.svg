@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>jollycons-[category]/icons/svg/icon-ecommerce-creditcard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons---ecommerce---export" transform="translate(-124.000000, -138.000000)">
+            <g id="row-2" transform="translate(60.000000, 138.000000)" fill="#000000" fill-rule="nonzero">
+                <g id="icon---7" transform="translate(64.000000, 0.000000)">
+                    <path d="M4,9 L20,9 L20,7 L4,7 L4,9 Z M4,12 L4,18 L20,18 L20,12 L4,12 Z M4,5 L20,5 C21.1045695,5 22,5.8954305 22,7 L22,18 C22,19.1045695 21.1045695,20 20,20 L4,20 C2.8954305,20 2,19.1045695 2,18 L2,7 C2,5.8954305 2.8954305,5 4,5 Z M7,14 L10,14 C10.5522847,14 11,14.4477153 11,15 C11,15.5522847 10.5522847,16 10,16 L7,16 C6.44771525,16 6,15.5522847 6,15 C6,14.4477153 6.44771525,14 7,14 Z M13,14 L14,14 C14.5522847,14 15,14.4477153 15,15 C15,15.5522847 14.5522847,16 14,16 L13,16 C12.4477153,16 12,15.5522847 12,15 C12,14.4477153 12.4477153,14 13,14 Z" id="creditcard"></path>
+                </g>
+            </g>
+            <g id="slices" transform="translate(60.000000, 58.000000)"></g>
+        </g>
+    </g>
+</svg>
