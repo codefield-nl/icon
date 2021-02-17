@@ -41,25 +41,38 @@ export class FieldgroupIconElement extends LitElement {
     icon: string = '';
 
     @property()
-    debug?: boolean = false;
+    debug?: boolean;
 
     render() {
-        if(!this.debug) {
+      console.log(typeof this.debug);
+      
+      if(typeof this.debug !== 'string') {
+
+        // Custom icon
+        if (this.icon.indexOf('.') === 0 || this.icon.indexOf('/') === 0) {
+          return html` 
+          <i class="icon" style="-webkit-mask: url('${this.icon}') center/contain no-repeat;"></i>
+          `;
+        }
+        // Normal icon
+        else {
           return html` 
           <i class="icon" style="-webkit-mask: url('./../assets/icons/${this.getIcon()}') center/contain no-repeat;"></i>
-           `;
+          `;
         }
-        else {
-          let htmlArr = [];
-          for (const icon in FieldGroupIcons) {
-            htmlArr.push(
-              html`<div class="fg-icon-wrapper"> 
-                      <span>${icon}</span>
-                      <i class="icon" style="-webkit-mask: url('./../assets/icons/${FieldGroupIcons[icon]}.svg') center/contain no-repeat;"></i>
-                  </div>`);
-          }
-          return html`${htmlArr}`;
+      }
+      // Debug modus
+      else {
+        let htmlArr = [];
+        for (const icon in FieldGroupIcons) {
+          htmlArr.push(
+            html`<div class="fg-icon-wrapper"> 
+                    <span>${icon}</span>
+                    <i class="icon" style="-webkit-mask: url('./../assets/icons/${FieldGroupIcons[icon]}.svg') center/contain no-repeat;"></i>
+                </div>`);
         }
+        return html`${htmlArr}`;
+      }
     }
 
     getIcon(): string {

@@ -1,19 +1,22 @@
-# 🚀 Welcome to your new awesome project!
+# fieldgroup icon
 
-This project has been created using **webpack scaffold**, you can now run
 
+### installation
 ```
-yarn build
-```
-
-to bundle your application
-
-
-```
-yarn server 
+yarn || npm i
 ```
 
-to develop
+### Building the project
+```
+yarn build || npm run build
+```
 
+### Serve
+```
+yarn server npm start
+```
 
-// UI icons are added
+### Usage
+<fg-icon class="test" icon="goals" debug ></fg-icon>
+Or with a custom icon:
+<fg-icon class="test" icon="/assets/custom-icon.svg" debug="true"></fg-icon>
