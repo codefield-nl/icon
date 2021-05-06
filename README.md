@@ -13,7 +13,7 @@ yarn build || npm run build
 
 ### Serve
 ```
-yarn server npm start
+yarn serve || npm start
 ```
 
 ### Usage
