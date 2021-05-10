@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "start": "npm run open && npm run serve",
-    "open": "xdg-open http://localhost:8080",
+    "open": "[[ -x \"$(command  -v xdg-open)\" ]] && xdg-open http://localhost:8080 || open http://localhost:8080",
     "serve": "webpack serve"
   },
   "devDependencies": {
