@@ -1,5 +1,5 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Icon webcomponent",
   "name": "fieldgroup-icon",
   "main": "dist/main.js",
