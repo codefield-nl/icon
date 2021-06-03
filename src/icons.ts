@@ -643,6 +643,23 @@ const weatherIcons = {
     tornado: `${weatherFolder}/tornado`,
 }
 
+const socialFolder = 'social';
+const socialIcons = {
+    facebook: `${socialFolder}/facebook`,
+    twitter: `${socialFolder}/twitter`,
+    instagram: `${socialFolder}/instagram`,
+    linkedin: `${socialFolder}/linkedin`,
+    youtube: `${socialFolder}/youtube`,
+}
+
+const werkenbijFolder = 'werkenbij';
+const werkenbijIcons = {
+    education_filled: `${werkenbijFolder}/education-filled`,
+    heart_filled: `${werkenbijFolder}/heart-filled`,
+    location_filled: `${werkenbijFolder}/location-filled`,
+    suitcase_filled: `${werkenbijFolder}/suitcase-filled`,
+}
+
 const arrowFolder = 'arrows';
 const arrowIcons = {
     arrow_angle_ccw_e: `${arrowFolder}/arrow-angle-ccw-e`,
@@ -703,6 +720,7 @@ const arrowIcons = {
     chevron_n: `${arrowFolder}/chevron-n`,
     chevron_s: `${arrowFolder}/chevron-s`,
     chevron_w: `${arrowFolder}/chevron-w`,
+    chevron_double: `${arrowFolder}/chevron-double`,
 }
 
 export const FieldGroupIcons = {
@@ -739,4 +757,6 @@ export const FieldGroupIcons = {
     ...prideIcons,
     ...spaceIcons,
     ...sportIcons,
+    ...socialIcons,
+    ...werkenbijIcons,
 }
