@@ -66,7 +66,7 @@ export class FieldgroupIconElement extends LitElement {
           htmlArr.push(
             html`<div class="fg-icon-wrapper"> 
                     <span>${icon}</span>
-                    <i class="icon" style="-webkit-mask: url('https://raw.githubusercontent.com/codefield-nl/icon/master/assets/icons/${FieldGroupIcons[icon]}.svg') center/contain no-repeat;"></i>
+                    <i class="icon" style="-webkit-mask: url('//icons.briqframework.nl/icons/${FieldGroupIcons[icon]}.svg') center/contain no-repeat;"></i>
                 </div>`);
         }
         return html`${htmlArr}`;
