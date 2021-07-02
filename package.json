@@ -34,6 +34,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "copy-webpack-plugin": "^9.0.1",
     "html-webpack-plugin": "^4.5.0",
     "lit-element": "^2.4.0"
   },
