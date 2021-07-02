@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>jollycons-beauty/jollycons-beauty/svg/icon-beauty-lipstick</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons---export" transform="translate(-124.000000, -138.000000)">
+            <g id="row-2" transform="translate(60.000000, 138.000000)" fill="#000000" fill-rule="nonzero">
+                <g id="icon---7" transform="translate(64.000000, 0.000000)">
+                    <path d="M16,20 L16,21 C16,22.6568542 14.6568542,24 13,24 L10,24 C8.34314575,24 7,22.6568542 7,21 L7,20 C6.44771525,20 6,19.5522847 6,19 L6,16 C6,15.4477153 6.44771525,15 7,15 L7,8 C7,7.44771525 7.44771525,7 8,7 L8,2.08062485 C8,1.62648186 8.1545615,1.18586085 8.43826238,0.831234752 C9.12828148,-0.0312891178 10.3868662,-0.171131868 11.2493901,0.518887229 L14.2493901,2.91888723 C14.7238206,3.2984316 15,3.8730574 15,4.48062485 L15,7 C15.5522847,7 16,7.44771525 16,8 L16,15 C16.5522847,15 17,15.4477153 17,16 L17,19 C17,19.5522847 16.5522847,20 16,20 Z M9,20 L9,21 C9,21.5522847 9.44771525,22 10,22 L13,22 C13.5522847,22 14,21.5522847 14,21 L14,20 L9,20 Z M14,15 L14,9 L9,9 L9,15 L14,15 L14,15 Z M13,7 L13,4.48062485 L10,2.08062485 L10,7 L13,7 L13,7 Z M8,17 L8,18 L15,18 L15,17 L8,17 Z" id="lipstick"></path>
+                </g>
+            </g>
+            <g id="slices" transform="translate(60.000000, 58.000000)"></g>
+        </g>
+    </g>
+</svg>

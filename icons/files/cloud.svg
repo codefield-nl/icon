@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>jollycons-files-2/icons/svg/icon-files-2-cloud</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons---export" transform="translate(-252.000000, -58.000000)">
+            <g id="row-1" transform="translate(60.000000, 58.000000)" fill="#000000" fill-rule="nonzero">
+                <g id="icon---4" transform="translate(192.000000, 0.000000)">
+                    <path d="M5,1 L15.5965861,1 C16.1296935,1 16.6407387,1.2128378 17.0162454,1.59125321 L20.4196593,5.02103078 C20.7913991,5.3956502 21,5.90201795 21,6.42977757 L21,20 C21,21.1045695 20.1045695,22 19,22 L5,22 C3.8954305,22 3,21.1045695 3,20 L3,3 C3,1.8954305 3.8954305,1 5,1 Z M14,3 L5,3 L5,20 L19,20 L19,8 L16,8 C14.8954305,8 14,7.1045695 14,6 L14,3 Z M16,3.40653885 L16,6 L18.573526,6 L16,3.40653885 Z M8.00040705,12.0499265 C8.00013603,12.0333168 8,12.0166743 8,12 C8,10.3431458 9.34314575,9 11,9 C12.3834681,9 13.5482124,9.93646773 13.894919,11.2100892 C14.2369082,11.0745135 14.6097523,11 15,11 C16.6568542,11 18,12.3431458 18,14 C18,15.6568542 16.6568542,17 15,17 L8,17 L8,16.9499909 C6.85887984,16.7183558 6,15.709479 6,14.5 C6,13.2903772 6.8590841,12.2814043 8.00040705,12.0499265 L8.00040705,12.0499265 Z" id="file-cloud"></path>
+                </g>
+            </g>
+            <g id="slices" transform="translate(60.000000, 58.000000)"></g>
+        </g>
+    </g>
+</svg>
