@@ -1,0 +1,50 @@
+name: Continious intergration
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+jobs:
+  cicd:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+
+    steps:
+      # PREPERATION
+      - name: 🛎 Checkout
+        uses: actions/checkout@v2
+
+      # INSTALL
+      - name: 🏗 Setup node env
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: 🔮 Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: 👨🏻‍💻 Install
+        run: npm ci
+
+
+      # BUILD
+      - name: 🛠 Build
+        run: npm run build
+
+
+      # DEPLOYMENT
+      - name: 🚀 Deployment
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
